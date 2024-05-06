@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="flex flex-col gap-4">
+    <h1 class="text-center text-2xl font-bold">Local Pan Shop Survey</h1>
+
+    <div class="flex flex-col gap-2">
+        <label for="name" class="font-medium">Name:</label>
+        <input type="text" id="name" class="bg-gray-100 border border-gray-300 rounded px-4 py-2 text-gray-700">
+    </div>
+
+    <div class="flex flex-col gap-2">
+        <label for="email" class="font-medium">Email:</label>
+        <input type="email" id="email" class="bg-gray-100 border border-gray-300 rounded px-4 py-2 text-gray-700">
+    </div>
+
+    <div class="flex flex-col gap-2">
+        <label for="favorite-bread" class="font-medium">Favorite Type of Bread:</label>
+        <select id="favorite-bread" class="bg-gray-100 border border-gray-300 rounded px-4 py-2 text-gray-700">
+            <option value="white">White</option>
+            <option value="brown">Brown</option>
+            <option value="multigrain">Multigrain</option>
+        </select>
+    </div>
+
+    <div class="flex flex-col gap-2">
+        <label for="favorite-filling" class="font-medium">Favorite Filling:</label>
+        <input type="text" id="favorite-filling"
+            class="bg-gray-100 border border-gray-300 rounded px-4 py-2 text-gray-700">
+    </div>
+
+    <div class="flex flex-col gap-2">
+        <label for="additional-info" class="font-medium">Any additional information you'd like to share:</label>
+        <input type="text" id="additional-info"
+            class="bg-gray-100 border border-gray-300 rounded px-4 py-2 text-gray-700">
+    </div>
+
+    <div class="flex justify-center gap-4">
+        <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded" type="submit"
+            id="newbttn">Submit</button>
+        <button class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded" type="reset">Reset</button>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The AI form</title>
+</head>
+
+
+<body>
+   
+        <h1 class="text-center text-4xl font-bold mx-auto p-4 my-8 rounded-md bg-white">AI Form Generator</h1>
+
+    
+
+    <form id="nameForm" class="flex flex-col space-y-6 w-full max-w-md mx-auto p-2 my-20 rounded-md bg-white">
+        <label for="name" class="text-gray-700 font-medium text-sm">Describe your requirement :</label>
+        <textarea id="name" name="name" placeholder="Enter your form description here"
+            class="appearance-none rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 h-24 resize-none"></textarea>
+        <button type="submit"
+            class="py-2 px-4 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-700"
+            id="bttn">Submit</button>
+
+    </form>
+
+    <div id='newForm' class="flex flex-col space-y-6 w-full max-w-md mx-auto p-2 my-8 rounded-md bg-white"></div>
+
+    <script src="./script.js"></script>
+
+
+
+
+</body>
+
+</html>
